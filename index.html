@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music Player</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <container>
+      <button id="play">Play</button>
+      <button id="pause">Pause</button>
+      <button id="next">Next</button>
+      <span id="previous">Previous</span>
+    </container>
+
+    <audio controls id="audioFile">
+      <source type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
